@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5C2F14423DE1B0C00E3A88E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2F14323DE1B0C00E3A88E /* AppDelegate.swift */; };
+		A5C2F14723DE1B0C00E3A88E /* VladWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5C2F14523DE1B0C00E3A88E /* VladWeather.xcdatamodeld */; };
+		A5C2F14923DE1B0C00E3A88E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2F14823DE1B0C00E3A88E /* SceneDelegate.swift */; };
+		A5C2F14B23DE1B0C00E3A88E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2F14A23DE1B0C00E3A88E /* MasterViewController.swift */; };
+		A5C2F14D23DE1B0C00E3A88E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2F14C23DE1B0C00E3A88E /* DetailViewController.swift */; };
+		A5C2F15023DE1B0C00E3A88E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C2F14E23DE1B0C00E3A88E /* Main.storyboard */; };
+		A5C2F15223DE1B0E00E3A88E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C2F15123DE1B0E00E3A88E /* Assets.xcassets */; };
+		A5C2F15523DE1B0E00E3A88E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C2F15323DE1B0E00E3A88E /* LaunchScreen.storyboard */; };
+		A5C2F16023DE1B0F00E3A88E /* VladWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2F15F23DE1B0F00E3A88E /* VladWeatherTests.swift */; };
+		A5C2F16B23DE1B0F00E3A88E /* VladWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2F16A23DE1B0F00E3A88E /* VladWeatherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5C2F15C23DE1B0F00E3A88E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5C2F13823DE1B0C00E3A88E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5C2F13F23DE1B0C00E3A88E;
+			remoteInfo = VladWeather;
+		};
+		A5C2F16723DE1B0F00E3A88E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5C2F13823DE1B0C00E3A88E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5C2F13F23DE1B0C00E3A88E;
+			remoteInfo = VladWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5C2F14023DE1B0C00E3A88E /* VladWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VladWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C2F14323DE1B0C00E3A88E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5C2F14623DE1B0C00E3A88E /* VladWeather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VladWeather.xcdatamodel; sourceTree = "<group>"; };
+		A5C2F14823DE1B0C00E3A88E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A5C2F14A23DE1B0C00E3A88E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		A5C2F14C23DE1B0C00E3A88E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A5C2F14F23DE1B0C00E3A88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5C2F15123DE1B0E00E3A88E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5C2F15423DE1B0E00E3A88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5C2F15623DE1B0E00E3A88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5C2F15B23DE1B0F00E3A88E /* VladWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VladWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C2F15F23DE1B0F00E3A88E /* VladWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VladWeatherTests.swift; sourceTree = "<group>"; };
+		A5C2F16123DE1B0F00E3A88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5C2F16623DE1B0F00E3A88E /* VladWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VladWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C2F16A23DE1B0F00E3A88E /* VladWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VladWeatherUITests.swift; sourceTree = "<group>"; };
+		A5C2F16C23DE1B0F00E3A88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5C2F13D23DE1B0C00E3A88E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C2F15823DE1B0F00E3A88E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C2F16323DE1B0F00E3A88E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5C2F13723DE1B0C00E3A88E = {
+			isa = PBXGroup;
+			children = (
+				A5C2F14223DE1B0C00E3A88E /* VladWeather */,
+				A5C2F15E23DE1B0F00E3A88E /* VladWeatherTests */,
+				A5C2F16923DE1B0F00E3A88E /* VladWeatherUITests */,
+				A5C2F14123DE1B0C00E3A88E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5C2F14123DE1B0C00E3A88E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5C2F14023DE1B0C00E3A88E /* VladWeather.app */,
+				A5C2F15B23DE1B0F00E3A88E /* VladWeatherTests.xctest */,
+				A5C2F16623DE1B0F00E3A88E /* VladWeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5C2F14223DE1B0C00E3A88E /* VladWeather */ = {
+			isa = PBXGroup;
+			children = (
+				A5C2F14323DE1B0C00E3A88E /* AppDelegate.swift */,
+				A5C2F14823DE1B0C00E3A88E /* SceneDelegate.swift */,
+				A5C2F14A23DE1B0C00E3A88E /* MasterViewController.swift */,
+				A5C2F14C23DE1B0C00E3A88E /* DetailViewController.swift */,
+				A5C2F14E23DE1B0C00E3A88E /* Main.storyboard */,
+				A5C2F15123DE1B0E00E3A88E /* Assets.xcassets */,
+				A5C2F15323DE1B0E00E3A88E /* LaunchScreen.storyboard */,
+				A5C2F15623DE1B0E00E3A88E /* Info.plist */,
+				A5C2F14523DE1B0C00E3A88E /* VladWeather.xcdatamodeld */,
+			);
+			path = VladWeather;
+			sourceTree = "<group>";
+		};
+		A5C2F15E23DE1B0F00E3A88E /* VladWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5C2F15F23DE1B0F00E3A88E /* VladWeatherTests.swift */,
+				A5C2F16123DE1B0F00E3A88E /* Info.plist */,
+			);
+			path = VladWeatherTests;
+			sourceTree = "<group>";
+		};
+		A5C2F16923DE1B0F00E3A88E /* VladWeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5C2F16A23DE1B0F00E3A88E /* VladWeatherUITests.swift */,
+				A5C2F16C23DE1B0F00E3A88E /* Info.plist */,
+			);
+			path = VladWeatherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5C2F13F23DE1B0C00E3A88E /* VladWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5C2F16F23DE1B0F00E3A88E /* Build configuration list for PBXNativeTarget "VladWeather" */;
+			buildPhases = (
+				A5C2F13C23DE1B0C00E3A88E /* Sources */,
+				A5C2F13D23DE1B0C00E3A88E /* Frameworks */,
+				A5C2F13E23DE1B0C00E3A88E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VladWeather;
+			productName = VladWeather;
+			productReference = A5C2F14023DE1B0C00E3A88E /* VladWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5C2F15A23DE1B0F00E3A88E /* VladWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5C2F17223DE1B0F00E3A88E /* Build configuration list for PBXNativeTarget "VladWeatherTests" */;
+			buildPhases = (
+				A5C2F15723DE1B0F00E3A88E /* Sources */,
+				A5C2F15823DE1B0F00E3A88E /* Frameworks */,
+				A5C2F15923DE1B0F00E3A88E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5C2F15D23DE1B0F00E3A88E /* PBXTargetDependency */,
+			);
+			name = VladWeatherTests;
+			productName = VladWeatherTests;
+			productReference = A5C2F15B23DE1B0F00E3A88E /* VladWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5C2F16523DE1B0F00E3A88E /* VladWeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5C2F17523DE1B0F00E3A88E /* Build configuration list for PBXNativeTarget "VladWeatherUITests" */;
+			buildPhases = (
+				A5C2F16223DE1B0F00E3A88E /* Sources */,
+				A5C2F16323DE1B0F00E3A88E /* Frameworks */,
+				A5C2F16423DE1B0F00E3A88E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5C2F16823DE1B0F00E3A88E /* PBXTargetDependency */,
+			);
+			name = VladWeatherUITests;
+			productName = VladWeatherUITests;
+			productReference = A5C2F16623DE1B0F00E3A88E /* VladWeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5C2F13823DE1B0C00E3A88E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Vladislav Petrov";
+				TargetAttributes = {
+					A5C2F13F23DE1B0C00E3A88E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A5C2F15A23DE1B0F00E3A88E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A5C2F13F23DE1B0C00E3A88E;
+					};
+					A5C2F16523DE1B0F00E3A88E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A5C2F13F23DE1B0C00E3A88E;
+					};
+				};
+			};
+			buildConfigurationList = A5C2F13B23DE1B0C00E3A88E /* Build configuration list for PBXProject "VladWeather" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5C2F13723DE1B0C00E3A88E;
+			productRefGroup = A5C2F14123DE1B0C00E3A88E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5C2F13F23DE1B0C00E3A88E /* VladWeather */,
+				A5C2F15A23DE1B0F00E3A88E /* VladWeatherTests */,
+				A5C2F16523DE1B0F00E3A88E /* VladWeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5C2F13E23DE1B0C00E3A88E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C2F15523DE1B0E00E3A88E /* LaunchScreen.storyboard in Resources */,
+				A5C2F15223DE1B0E00E3A88E /* Assets.xcassets in Resources */,
+				A5C2F15023DE1B0C00E3A88E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C2F15923DE1B0F00E3A88E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C2F16423DE1B0F00E3A88E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5C2F13C23DE1B0C00E3A88E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C2F14B23DE1B0C00E3A88E /* MasterViewController.swift in Sources */,
+				A5C2F14423DE1B0C00E3A88E /* AppDelegate.swift in Sources */,
+				A5C2F14D23DE1B0C00E3A88E /* DetailViewController.swift in Sources */,
+				A5C2F14723DE1B0C00E3A88E /* VladWeather.xcdatamodeld in Sources */,
+				A5C2F14923DE1B0C00E3A88E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C2F15723DE1B0F00E3A88E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C2F16023DE1B0F00E3A88E /* VladWeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C2F16223DE1B0F00E3A88E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C2F16B23DE1B0F00E3A88E /* VladWeatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5C2F15D23DE1B0F00E3A88E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5C2F13F23DE1B0C00E3A88E /* VladWeather */;
+			targetProxy = A5C2F15C23DE1B0F00E3A88E /* PBXContainerItemProxy */;
+		};
+		A5C2F16823DE1B0F00E3A88E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5C2F13F23DE1B0C00E3A88E /* VladWeather */;
+			targetProxy = A5C2F16723DE1B0F00E3A88E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5C2F14E23DE1B0C00E3A88E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5C2F14F23DE1B0C00E3A88E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5C2F15323DE1B0E00E3A88E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5C2F15423DE1B0E00E3A88E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5C2F16D23DE1B0F00E3A88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5C2F16E23DE1B0F00E3A88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5C2F17023DE1B0F00E3A88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VladWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VladislavPetrov.VladWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5C2F17123DE1B0F00E3A88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VladWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VladislavPetrov.VladWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5C2F17323DE1B0F00E3A88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VladWeatherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VladislavPetrov.VladWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VladWeather.app/VladWeather";
+			};
+			name = Debug;
+		};
+		A5C2F17423DE1B0F00E3A88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VladWeatherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VladislavPetrov.VladWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VladWeather.app/VladWeather";
+			};
+			name = Release;
+		};
+		A5C2F17623DE1B0F00E3A88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VladWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VladislavPetrov.VladWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VladWeather;
+			};
+			name = Debug;
+		};
+		A5C2F17723DE1B0F00E3A88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VladWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VladislavPetrov.VladWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VladWeather;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5C2F13B23DE1B0C00E3A88E /* Build configuration list for PBXProject "VladWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C2F16D23DE1B0F00E3A88E /* Debug */,
+				A5C2F16E23DE1B0F00E3A88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5C2F16F23DE1B0F00E3A88E /* Build configuration list for PBXNativeTarget "VladWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C2F17023DE1B0F00E3A88E /* Debug */,
+				A5C2F17123DE1B0F00E3A88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5C2F17223DE1B0F00E3A88E /* Build configuration list for PBXNativeTarget "VladWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C2F17323DE1B0F00E3A88E /* Debug */,
+				A5C2F17423DE1B0F00E3A88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5C2F17523DE1B0F00E3A88E /* Build configuration list for PBXNativeTarget "VladWeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C2F17623DE1B0F00E3A88E /* Debug */,
+				A5C2F17723DE1B0F00E3A88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5C2F14523DE1B0C00E3A88E /* VladWeather.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5C2F14623DE1B0C00E3A88E /* VladWeather.xcdatamodel */,
+			);
+			currentVersion = A5C2F14623DE1B0C00E3A88E /* VladWeather.xcdatamodel */;
+			path = VladWeather.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5C2F13823DE1B0C00E3A88E /* Project object */;
+}
