@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A54DDF1B23DE698E00A26DBB /* Weather.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54DDF1A23DE698E00A26DBB /* Weather.storyboard */; };
+		A54DDF1E23DE6A2300A26DBB /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54DDF1D23DE6A2300A26DBB /* Forecast.swift */; };
+		A54DDF2223DE6AE400A26DBB /* YandexWeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54DDF2123DE6AE400A26DBB /* YandexWeatherService.swift */; };
+		A54DDF2423DE6B3800A26DBB /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54DDF2323DE6B3800A26DBB /* URLRequest.swift */; };
+		A54DDF2623DE6B5F00A26DBB /* Enivironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54DDF2523DE6B5F00A26DBB /* Enivironment.swift */; };
+		A54DDF2823DE6BC000A26DBB /* YandexWeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54DDF2723DE6BC000A26DBB /* YandexWeatherForecast.swift */; };
+		A54DDF2A23DE6F2600A26DBB /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54DDF2923DE6F2600A26DBB /* LocationTableViewCell.swift */; };
+		A54DDF2C23DE8AD400A26DBB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54DDF2B23DE8AD400A26DBB /* Location.swift */; };
+		A54DDF2E23DE8D8200A26DBB /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54DDF2D23DE8D8200A26DBB /* LocationViewController.swift */; };
 		A5C2F14423DE1B0C00E3A88E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2F14323DE1B0C00E3A88E /* AppDelegate.swift */; };
 		A5C2F14723DE1B0C00E3A88E /* VladWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5C2F14523DE1B0C00E3A88E /* VladWeather.xcdatamodeld */; };
-		A5C2F14923DE1B0C00E3A88E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2F14823DE1B0C00E3A88E /* SceneDelegate.swift */; };
-		A5C2F14B23DE1B0C00E3A88E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2F14A23DE1B0C00E3A88E /* MasterViewController.swift */; };
-		A5C2F14D23DE1B0C00E3A88E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2F14C23DE1B0C00E3A88E /* DetailViewController.swift */; };
+		A5C2F14B23DE1B0C00E3A88E /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2F14A23DE1B0C00E3A88E /* LocationsViewController.swift */; };
 		A5C2F15023DE1B0C00E3A88E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C2F14E23DE1B0C00E3A88E /* Main.storyboard */; };
 		A5C2F15523DE1B0E00E3A88E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C2F15323DE1B0E00E3A88E /* LaunchScreen.storyboard */; };
 		A5C2F16023DE1B0F00E3A88E /* VladWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2F15F23DE1B0F00E3A88E /* VladWeatherTests.swift */; };
@@ -64,12 +71,19 @@
 		1671552DB6543912132E3BB4 /* libPods-VladWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VladWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C2B4DF37F87D9ABF9CB6658 /* Pods-VladWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VladWeather.release.xcconfig"; path = "Target Support Files/Pods-VladWeather/Pods-VladWeather.release.xcconfig"; sourceTree = "<group>"; };
 		86A9063EC03BB0D86855DFB8 /* Pods-VladWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VladWeather.debug.xcconfig"; path = "Target Support Files/Pods-VladWeather/Pods-VladWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		A54DDF1A23DE698E00A26DBB /* Weather.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Weather.storyboard; sourceTree = "<group>"; };
+		A54DDF1D23DE6A2300A26DBB /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		A54DDF2123DE6AE400A26DBB /* YandexWeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexWeatherService.swift; sourceTree = "<group>"; };
+		A54DDF2323DE6B3800A26DBB /* URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+		A54DDF2523DE6B5F00A26DBB /* Enivironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enivironment.swift; sourceTree = "<group>"; };
+		A54DDF2723DE6BC000A26DBB /* YandexWeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexWeatherForecast.swift; sourceTree = "<group>"; };
+		A54DDF2923DE6F2600A26DBB /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		A54DDF2B23DE8AD400A26DBB /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A54DDF2D23DE8D8200A26DBB /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		A5C2F14023DE1B0C00E3A88E /* VladWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VladWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C2F14323DE1B0C00E3A88E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5C2F14623DE1B0C00E3A88E /* VladWeather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VladWeather.xcdatamodel; sourceTree = "<group>"; };
-		A5C2F14823DE1B0C00E3A88E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5C2F14A23DE1B0C00E3A88E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		A5C2F14C23DE1B0C00E3A88E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A5C2F14A23DE1B0C00E3A88E /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
 		A5C2F14F23DE1B0C00E3A88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5C2F15423DE1B0E00E3A88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5C2F15623DE1B0E00E3A88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -132,6 +146,68 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		A54DDF1523DE67A100A26DBB /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				A54DDF2323DE6B3800A26DBB /* URLRequest.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		A54DDF1623DE68BB00A26DBB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5C2F14A23DE1B0C00E3A88E /* LocationsViewController.swift */,
+				A54DDF2D23DE8D8200A26DBB /* LocationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A54DDF1723DE68D600A26DBB /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				A5C2F14E23DE1B0C00E3A88E /* Main.storyboard */,
+				A5C2F15323DE1B0E00E3A88E /* LaunchScreen.storyboard */,
+				A54DDF1A23DE698E00A26DBB /* Weather.storyboard */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		A54DDF1923DE691100A26DBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A54DDF2923DE6F2600A26DBB /* LocationTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A54DDF1C23DE6A0B00A26DBB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A54DDF1D23DE6A2300A26DBB /* Forecast.swift */,
+				A54DDF2523DE6B5F00A26DBB /* Enivironment.swift */,
+				A54DDF2B23DE8AD400A26DBB /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A54DDF1F23DE6A6E00A26DBB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A54DDF2023DE6ACE00A26DBB /* Yandex */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A54DDF2023DE6ACE00A26DBB /* Yandex */ = {
+			isa = PBXGroup;
+			children = (
+				A54DDF2123DE6AE400A26DBB /* YandexWeatherService.swift */,
+				A54DDF2723DE6BC000A26DBB /* YandexWeatherForecast.swift */,
+			);
+			path = Yandex;
+			sourceTree = "<group>";
+		};
 		A5C2F13723DE1B0C00E3A88E = {
 			isa = PBXGroup;
 			children = (
@@ -159,12 +235,13 @@
 		A5C2F14223DE1B0C00E3A88E /* VladWeather */ = {
 			isa = PBXGroup;
 			children = (
+				A54DDF1F23DE6A6E00A26DBB /* Services */,
+				A54DDF1523DE67A100A26DBB /* Extentions */,
+				A54DDF1C23DE6A0B00A26DBB /* Models */,
+				A54DDF1723DE68D600A26DBB /* Stories */,
+				A54DDF1623DE68BB00A26DBB /* ViewControllers */,
+				A54DDF1923DE691100A26DBB /* Views */,
 				A5C2F14323DE1B0C00E3A88E /* AppDelegate.swift */,
-				A5C2F14823DE1B0C00E3A88E /* SceneDelegate.swift */,
-				A5C2F14A23DE1B0C00E3A88E /* MasterViewController.swift */,
-				A5C2F14C23DE1B0C00E3A88E /* DetailViewController.swift */,
-				A5C2F14E23DE1B0C00E3A88E /* Main.storyboard */,
-				A5C2F15323DE1B0E00E3A88E /* LaunchScreen.storyboard */,
 				A5C2F15623DE1B0E00E3A88E /* Info.plist */,
 				A5C2F14523DE1B0C00E3A88E /* VladWeather.xcdatamodeld */,
 				A5C2F1B723DE49C400E3A88E /* Assets.xcassets */,
@@ -311,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5C2F1B123DE24BF00E3A88E /* Gemfile.lock in Resources */,
+				A54DDF1B23DE698E00A26DBB /* Weather.storyboard in Resources */,
 				A5C2F1A823DE204200E3A88E /* .ruby-version in Resources */,
 				A5C2F18523DE1E3000E3A88E /* Gemfile in Resources */,
 				A5C2F17B23DE1DA500E3A88E /* .swiftlint.yml in Resources */,
@@ -403,11 +481,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5C2F14B23DE1B0C00E3A88E /* MasterViewController.swift in Sources */,
+				A54DDF1E23DE6A2300A26DBB /* Forecast.swift in Sources */,
+				A54DDF2223DE6AE400A26DBB /* YandexWeatherService.swift in Sources */,
+				A5C2F14B23DE1B0C00E3A88E /* LocationsViewController.swift in Sources */,
+				A54DDF2A23DE6F2600A26DBB /* LocationTableViewCell.swift in Sources */,
+				A54DDF2423DE6B3800A26DBB /* URLRequest.swift in Sources */,
+				A54DDF2E23DE8D8200A26DBB /* LocationViewController.swift in Sources */,
+				A54DDF2623DE6B5F00A26DBB /* Enivironment.swift in Sources */,
 				A5C2F14423DE1B0C00E3A88E /* AppDelegate.swift in Sources */,
-				A5C2F14D23DE1B0C00E3A88E /* DetailViewController.swift in Sources */,
+				A54DDF2823DE6BC000A26DBB /* YandexWeatherForecast.swift in Sources */,
 				A5C2F14723DE1B0C00E3A88E /* VladWeather.xcdatamodeld in Sources */,
-				A5C2F14923DE1B0C00E3A88E /* SceneDelegate.swift in Sources */,
+				A54DDF2C23DE8AD400A26DBB /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
